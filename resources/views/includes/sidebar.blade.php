@@ -1,6 +1,6 @@
-<div class="sidebar" style="background-color: #283e4a;" data-image="assets/img/sidebar-4.jpg">
+<div class="sidebar" style="background-color: #283e4a;" data-image="img/sidebar-4.jpg">
 
-<!--
+    <!--
 
     Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
     Tip 2: you can also add an image using data-image tag
@@ -10,7 +10,7 @@
     <div class="sidebar-wrapper">
         <div class="logo">
             <a href="http://www.creative-tim.com" class="simple-text">
-                <img src='assets/images/logo_login.png' style='width:120px;' id='gambar'>
+                <img src='img/logo_login.png' style='width:120px;' id='gambar'>
             </a>
         </div>
 
