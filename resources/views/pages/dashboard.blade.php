@@ -38,27 +38,27 @@
                         <table class="table">
                             <tbody>
                                 <tr>
-                                    <td><img src="assets/images/bl.svg" width="50"></td>
+                                    <td><img src="img/bl.svg" width="50"></td>
                                     <td>Nike Zoom YBZ 2018 New Arrival</td>
                                     <td class="td-actions text-right">
-                                        <img src="assets/images/img1.jpg" width="75">
+                                        <img src="img/img1.jpg" width="75">
                                     </td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="assets/images/tokped.jpg" width="50"></td>
+                                    <td><img src="img/tokped.jpg" width="50"></td>
                                     <td>Hush puppies bag New Arrival</td>
                                     <td class="td-actions text-right">
-                                        <img src="assets/images/img2.jpg" width="75">
+                                        <img src="img/img2.jpg" width="75">
                                     </td>
                                 </tr>
 
 
                                 <tr>
-                                    <td><img src="assets/images/bl.svg" width="50"></td>
+                                    <td><img src="img/bl.svg" width="50"></td>
                                     <td>Iphone 8 Original Garansi International</td>
                                     <td class="td-actions text-right">
-                                        <img src="assets/images/img3.png" width="75">
+                                        <img src="img/img3.png" width="75">
                                     </td>
                                 </tr>
 

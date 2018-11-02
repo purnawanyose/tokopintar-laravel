@@ -30,4 +30,7 @@
     </div>
 </body>
 
+<!-- foot -->
+@include('includes.foot')
+
 </html>
