@@ -14,8 +14,6 @@
             </a>
         </div>
 
-        
-
         <ul class="nav">
             <li>
                 <a href="dashboard.php">
