@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/dashboard', function () {
+    return view('pages/login');
+});
+
+Route::get('/dashboard', function () {
     return view('pages/dashboard');
+});
+
+Route::get('/products', function () {
+    return view('pages/product');
+});
+
+Route::get('/user', function () {
+    return view('pages/user');
+});
+
+Route::get('/order', function () {
+    return view('pages/order');
 });
