@@ -3,13 +3,14 @@
 
 <head>
     @include('includes.head')
+    @yield('head');
 </head>
 
 <body>
     <div class="wrapper">
         <div class="main-panel">
 
-            @include('includes.header')
+            <!-- @include('includes.header') -->
 
             <div class="content">
                 <div class="container-fluid">
@@ -17,9 +18,9 @@
                 </div>
             </div>
 
-            <footer class="footer">
+            <!-- <footer class="footer">
                 @include('includes.footer')
-            </footer>
+            </footer> -->
 
         </div>
     </div>

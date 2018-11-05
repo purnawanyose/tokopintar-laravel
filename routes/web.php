@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/dashboard', function () {
+Route::get('/', function () {
     return view('pages/login');
 });
 
