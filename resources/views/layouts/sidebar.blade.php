@@ -3,6 +3,7 @@
 
 <head>
     @include('includes.head')
+    @yield('head');
 </head>
 
 <body>
@@ -30,7 +31,10 @@
     </div>
 </body>
 
+<!-- custom foot -->
+@yield('foot');
 <!-- foot -->
 @include('includes.foot')
+
 
 </html>

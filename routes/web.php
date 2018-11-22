@@ -15,18 +15,28 @@ Route::get('/', function () {
     return view('pages/login');
 });
 
-Route::get('/dashboard', function () {
+Route::get('dashboard', function () {
     return view('pages/dashboard');
 });
 
-Route::get('/products', function () {
+Route::get('products', function () {
     return view('pages/product');
 });
 
-Route::get('/user', function () {
+Route::get('user', function () {
     return view('pages/user');
 });
 
-Route::get('/order', function () {
+Route::get('order', function () {
     return view('pages/order');
 });
+
+Route::get('activation', function () {
+    return view('pages/activation');
+});
+
+Route::get('register', function () {
+    return view('pages/register');
+});
+
+

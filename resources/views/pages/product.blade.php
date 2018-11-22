@@ -1,5 +1,13 @@
 @extends('layouts.sidebar')
 
+@section('head')
+<link href="{{ url('/css/light-bootstrap-dashboard.css?v=1.4.0') }}" rel="stylesheet"/>
+@stop
+
+@section('header')
+    Manage Products
+@stop
+
 @section('content')
 
 <div class="container-fluid">

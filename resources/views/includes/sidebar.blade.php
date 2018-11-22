@@ -16,33 +16,33 @@
 
         <ul class="nav">
             <li>
-                <a href="dashboard.php">
+                <a href="dashboard">
                     <i class="pe-7s-graph"></i>
                     <p>Dashboard</p>
                 </a>
             </li>
             <li>
-                <a href="user.php">
+                <a href="user">
                     <i class="pe-7s-user"></i>
                     <p>User Profile</p>
                 </a>
             </li>
             <li>
-                <a href="product.php">
+                <a href="products">
                     <i class="pe-7s-note2"></i>
                     <p>Manage Product</p>
                 </a>
             </li>
             <li>
-                <a href="order.php">
+                <a href="order">
                     <i class="pe-7s-cash"></i>
                     <p>List Order</p>
                 </a>
             </li>
             <li>
-                <a href="backup.php">
-                    <i class="pe-7s-cloud-download"></i>
-                    <p>Backup</p>
+                <a href="activation">
+                    <i class="pe-7s-credit"></i>
+                    <p>Activation</p>
                 </a>
             </li>
             <!-- <li>

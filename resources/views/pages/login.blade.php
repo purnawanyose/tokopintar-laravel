@@ -55,12 +55,12 @@
             <div class='container' style='width:400px;background-color:#283e4a;'><br /><img src='img/logo_login.png'
                     style='width:150px;' id='gambar'>
                 <div style="border-bottom:1px solid #a7a7a7;width:100px;"></div><br />
-                <form method='post' action="dashboard.php">
+                <?php echo Form::open(array('url' => 'dashboard',  'method' => 'get')); ?>
                     <div class="form-login">
                         <div class="form-group"><input type='text' class='form-control' name='user' placeholder="Username"></div>
                         <div class="form-group"><input type='password' class='form-control' name='pass' placeholder="Password"></div>
-                        <div class="form-group"><br /><button type='submit' class='btn btn-success btn-block' name='login'
-                                style='font-size:16px;font-weight:bold;color:#404040;'><i class='fa fa-sign-in-alt'></i>&nbsp;
+                        <div class="form-group"><br />
+                        <button type='submit' class='btn btn-success btn-block' name='login' style='font-size:16px;font-weight:bold;color:#404040;'><i class='fa fa-sign-in-alt'></i>&nbsp;
 
                                 Login</button></div>
                         <?php if(isset($salah) && $salah) {?>
@@ -70,7 +70,8 @@
                         <?php } ?>
                         <br />
                     </div>
-                </form>
+                <?php  echo Form::close(); ?>
+                <p style='font-weight:bold;color:#FAFAFA;'>Dont have a account? <a href="register">register here</a></p>
             </div>
         </center>
     </div>
